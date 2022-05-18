@@ -1,0 +1,233 @@
+.header {
+  display: flex;
+  background-color: beige;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px;
+}
+
+.item_row {
+  display: flex;
+
+}
+
+.item_photo {
+  width: 100%; 
+  height: auto;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.info {
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+
+.info_margin {
+  margin: 10px;
+}
+
+.avail {
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+  transition: transform 0.5s;
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.info_button {
+  outline: 2px solid black;
+  width: calc(100% - 20px);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+hr {
+  width: 100px;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.title {
+  margin-top: 100px;
+}
+
+.about_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: beige;
+  width: 60%;
+  padding: 75px;
+  margin: 150px;
+}
+
+.about_card h1 {
+  margin: 0;
+}
+
+.about_card hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about_text {
+  text-align: center;
+}
+
+.show_card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 2px 2px #888;
+  margin: 50px;
+  padding: 25px;
+  width: 250px;
+  height: 250px;
+}
+
+.show_card img {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.5s;
+}
+
+.show_card img:hover {
+  opacity: 0;
+}
+
+.show_card_row {
+  display: flex;
+}
+
+.show_card span {
+  margin: 25px;
+}
+
+.form_back {
+  background-color: lightslategrey;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.contact_card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  width: 60%;
+}
+
+.contact_card h4 {
+  margin: 0;
+}
+
+.contact_card h1 {
+  margin: 0;
+}
+
+.contact_card hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contact_card textarea {
+  resize: none;
+}
+
+.form_row {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+}
+
+.form_input {
+  outline: 0;
+  border: 2px solid black;
+  padding: 20px;
+  flex: 3 0 auto;
+}
+
+.form_input#fname {
+  margin-right: -1px;
+  margin-bottom: -1px;
+}
+
+.form_input#lname {
+  margin-left: -1px;
+  margin-bottom: -1px;
+}
+
+.form_input#email {
+  margin-top: -1px;
+  margin-right: -1px;
+  margin-bottom: -1px;
+  z-index: 10;
+}
+
+.form_input#ordern {
+  margin-top: -1px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+}
+
+.form_input_long {
+  flex: 3 0 150px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  margin-top: -1px;
+}
+
+.submit_form_button {
+  background-color: rgb(49, 79, 92);
+  color: white;
+  padding: 15px;
+  padding-left: 60px;
+  padding-right: 60px;
+  align-self: flex-end;
+  margin-top: 20px;
+  transition: background-color 0.25s;
+}
+
+.submit_form_button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+}
