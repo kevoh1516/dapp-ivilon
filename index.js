@@ -74,6 +74,38 @@ document.querySelector('#email').addEventListener('focus', () => {
   document.querySelector('#email').style.border = '2px solid black';
 })
 
+document.querySelector('.home_link').addEventListener('click', () => {
+  window.scroll({
+    top: 0, 
+    left: 0, 
+    behavior: 'smooth'
+  });  
+})
+
+document.querySelector('.collection_link').addEventListener('click', () => {
+  window.scroll({
+    top: 754, 
+    left: 0, 
+    behavior: 'smooth'
+  });  
+})
+
+document.querySelector('.about_link').addEventListener('click', () => {
+  window.scroll({
+    top: 3234, 
+    left: 0, 
+    behavior: 'smooth'
+  });  
+})
+
+document.querySelector('.contact_link').addEventListener('click', () => {
+  window.scroll({
+    top: 0, 
+    left: 0, 
+    behavior: 'smooth'
+  });  
+})
+
 const validateEmail = (email) => {
   return String(email)
     .toLowerCase()
