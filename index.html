@@ -398,7 +398,13 @@
 
       <textarea type="text" id="message" name="message" placeholder="Type your message here..." class="form_input form_input_long"></textarea>
 
-      <div class="submit_form_button">Submit</div>
+      <div class="submit_row">
+        <form action="?" method="POST">
+          <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+        </form>
+        <div class="submit_form_button">Submit</div>
+      </div>
+  
     </div>
   </div>
 
@@ -412,5 +418,6 @@
   </div>
 
   <script src="index.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </body>
 </html>

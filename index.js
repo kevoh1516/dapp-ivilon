@@ -92,7 +92,7 @@ document.querySelector('.collection_link').addEventListener('click', () => {
 
 document.querySelector('.about_link').addEventListener('click', () => {
   window.scroll({
-    top: 3234, 
+    top: 3276, 
     left: 0, 
     behavior: 'smooth'
   });  
@@ -100,7 +100,7 @@ document.querySelector('.about_link').addEventListener('click', () => {
 
 document.querySelector('.contact_link').addEventListener('click', () => {
   window.scroll({
-    top: 0, 
+    top: 4421, 
     left: 0, 
     behavior: 'smooth'
   });  

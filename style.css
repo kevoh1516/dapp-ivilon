@@ -94,11 +94,14 @@ a, a:hover, a:focus, a:active {
   flex-direction: column;
   align-items: center;
   background-color: #D1CAC9;
-  width: 60%;
+  width: 50%;
   padding: 75px;
-  margin: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
   position: absolute;
-  top: 0px;
+  top: 150px;
 }
 
 .about_card_back {
@@ -180,6 +183,7 @@ a, a:hover, a:focus, a:active {
 
 .contact_card textarea {
   resize: none;
+  font: var(--fnt);
 }
 
 .form_row {
@@ -194,6 +198,7 @@ a, a:hover, a:focus, a:active {
   border: 2px solid black;
   padding: 20px;
   flex: 3 0 auto;
+  font: var(--fnt);
 }
 
 .form_input#fname {
@@ -233,8 +238,6 @@ a, a:hover, a:focus, a:active {
   padding: 15px;
   padding-left: 60px;
   padding-right: 60px;
-  align-self: flex-end;
-  margin-top: 20px;
   transition: background-color 0.25s;
 }
 
@@ -285,6 +288,18 @@ a, a:hover, a:focus, a:active {
   margin: 3px;
 }
 
+.submit_row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.g-recaptcha {
+  transform: scale(0.77);
+  margin-left: -35px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -297,8 +312,6 @@ html, body {
 
 @font-face { font-family: Avenir; src: url('Avenir Light.ttf'); } 
 
-.font_7 {
-	font: var(--font_7);
-	color: rgb(var(--color_15));
-	letter-spacing: 0em;
+:root {
+  --fnt: italic normal normal 14px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
 }
